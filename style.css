@@ -1,0 +1,87 @@
+button.cant:hover {
+  background-image: url(no.gif)
+}
+
+body {
+  margin:0;
+  background-color:white;
+  background-image:url("soccer.jpg");
+}
+
+nav {
+  background-color:black;
+  width:100%;
+  text-align: center;
+  height:75px;
+}
+
+img {
+  height:68px;
+  width:auto;
+}
+
+img.image {
+  width:350px;
+  height:200px;
+}
+
+button {
+  background-color:black;
+  border:none;
+  font-size:20px;
+  font-family:sans-serif;
+}
+
+button#back {
+  float:left;
+  margin-left:25%;
+  margin-top:20px;
+  border: 3px solid goldenrod;
+  border-radius:10px;
+  color:white;
+}
+
+button#next {
+  float:right;
+  margin-right:25%;
+  margin-top:20px;
+  border: 3px solid goldenrod;
+  border-radius:10px;
+  color:white;
+}
+
+#next:hover {
+  background-color:gray;
+}
+
+#next:active {
+  background-color:goldenrod;
+}
+
+#back:hover {
+  background-color:gray;
+}
+
+#back:active {
+  background-color:goldenrod;
+}
+
+#home:hover {
+  background-color:#303030;
+}
+
+#home:active {
+  background-color:goldenrod;
+}
+
+section {
+  text-align:center;
+  font-family: sans-serif;
+  color:white;
+}
+
+h1 {
+  color:white;
+  font-size:100px;
+  margin-bottom:20px;
+}
